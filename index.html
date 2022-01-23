@@ -9,15 +9,34 @@
     <title>Cash Register</title>
 </head>
 <body>
+  
     <h1>Cash Register</h1>
     <h3>Enter the bill amount and cash given by the customer and know minimum number of notes to return. </h3>
-    <label>Bill Amount:</label>
+    <label for="bill-amount">Bill Amount:</label>
     <div> <textarea id="bill-amount" ></textarea></div>
-    <label>Cash Given:</label>
+    <label for="cash-given">Cash Given:</label>
     <div> <textarea id="cash-given"></textarea></div>
     <button id="btnCheck">CHECK</button>
     <p id="error-message"></p>
-    
+    <caption for="returnChange-table">Change to be returned:</caption>
+    <table class="returnChange-table">
+       
+        <tr>
+            <th>No.of Notes:</th>
+        </tr>
+        <tr>
+            <th>Notes:</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>50</td>
+            <td>20</td>
+            <td>10</td> 
+            <td>5</td>
+            <td>1</td>
+        </tr>
+    </table>
+      
 </body>
 <script src="index.js" type="text/javascript"></script>
 </html>
