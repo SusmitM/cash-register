@@ -11,14 +11,14 @@
 <body>
   
     <h1>Cash Register</h1>
-    <h3>Enter the bill amount and cash given by the customer and know minimum number of notes to return. </h3>
-    <label for="bill-amount">Bill Amount:</label>
-    <div> <textarea id="bill-amount" ></textarea></div>
-    <label for="cash-given">Cash Given:</label>
-    <div> <textarea id="cash-given"></textarea></div>
+    <h3 class="description">Enter the bill amount and cash given by the customer and know minimum number of notes to return.  </h3>
+    <label class="bill-amount">Bill Amount:</label>
+    <div> <input id="bill-amount" >  </input></div>
+    <label class="cash-given">Cash Given:</label>
+    <div> <input id="cash-given">  </input></div>
     <button id="btnCheck">CHECK</button>
     <p id="error-message"></p>
-    <caption for="returnChange-table">Change to be returned:</caption>
+    <label class="captionTable">Change to be returned:</label>
     <table class="returnChange-table">
        
         <tr>
