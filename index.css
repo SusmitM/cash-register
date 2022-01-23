@@ -72,3 +72,9 @@ td {
   border-collapse: collapse;
   padding: 0.4rem;
 }
+#error-message{
+  margin: 1rem auto;
+    font-size: x-large;
+    font-weight: bolder;
+
+}

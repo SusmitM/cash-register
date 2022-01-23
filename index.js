@@ -18,7 +18,7 @@ function validateBillAmount() {
         
     } 
     else {
-        showMessage("Invalid Bill Amount");
+        showMessage("Invalid Bill Amount!!!!");
 
     }
 }
