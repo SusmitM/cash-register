@@ -14,8 +14,8 @@ function validateBillAmount() {
 
             const balanceAmount = cashGiven.value - billAmount.value;
             calculateChange(balanceAmount);
-        } 
-        
+        }   
+         
     } 
     else {
         showMessage("Invalid Bill Amount!!!!");
