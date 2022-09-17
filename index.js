@@ -20,6 +20,13 @@ function validateBillAmount() {
         
     }
 
+    else if(BillAmount<=0|| CashGiven<=0 ){
+
+        showMessage("Please Enter Positive and Non-Zero Values");
+        
+    }
+
+
     else{
         if (BillAmount > 0) {
 
@@ -36,7 +43,7 @@ function validateBillAmount() {
             showMessage("Invalid Bill Amount!!!!");
     
         }
-
+        
     }
 
     
